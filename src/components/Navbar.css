@@ -1,10 +1,11 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
+  background-color: white;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -12,14 +13,16 @@
 
 .navbar-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  height: 80px;
+  /* height: 80px; */
   max-width: 1500px;
+  width: 100% !important;
+  /* border: 1px solid; */
 }
 
 .navbar-logo {
-  color: #fff;
+  color: black;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -27,6 +30,8 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+  max-height: 80px !important;
+  overflow: hidden;
 }
 
 .fa-typo3 {
@@ -35,8 +40,7 @@
 }
 
 .nav-menu {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
+  display: flex;
   grid-gap: 10px;
   list-style: none;
   text-align: center;
@@ -50,7 +54,7 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: black;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -155,4 +159,17 @@
     color: #242424;
     transition: 250ms;
   }
+}
+
+.send-enquiry {
+  background-color: #ff9900;
+  border-radius: 5px;
+  color: white !important;
+}
+
+.send-enquiry .nav-links {
+  color: white !important;
+}
+.send-enquiry .nav-links:hover {
+  color: black !important;
 }

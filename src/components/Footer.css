@@ -1,5 +1,6 @@
 .footer-container {
-  background-color: #242424;
+  background-color: rgb(34, 33, 33);
+  border-top: 1px solid black;
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -20,8 +21,8 @@
 }
 
 .footer-subscription > p {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Roboto", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
 }
 
 .footer-subscription-heading {
@@ -100,7 +101,10 @@
 }
 
 .social-media {
-  max-width: 1000px;
+  border: 1px solid white;
+  background-color: white;
+  /* width: ;
+  max-width: 1000px; */
   width: 100%;
 }
 
@@ -121,7 +125,7 @@
 }
 
 .social-logo {
-  color: #fff;
+  color: black;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -133,7 +137,7 @@
 }
 
 .website-rights {
-  color: #fff;
+  color: black;
   margin-bottom: 16px;
 }
 

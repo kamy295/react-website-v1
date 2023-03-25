@@ -1,0 +1,32 @@
+.company-info {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 4rem;
+  background: #fff;
+  height: 60vh;
+}
+
+.company-info h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.company-info p {
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .company-info h2 {
+    font-size: 24px;
+  }
+
+  .company-info p {
+    font-size: 14px;
+    max-width: 500px;
+  }
+}
